@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@200;400&family=Montserrat:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@200;400&family=Montserrat:wght@300&family=Source+Sans+Pro&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@200;400&family=Montserrat:wght@300&family=Source+Sans+Pro:wght@200&display=swap");
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(255, 255, 255);
+}
+
+.secondary-color {
+  color: #9D9D9D;
+}
+
+.show-button {
+  visibility: hidden;
+  display: none;
+}
+
+.font-styles {
+  font-family: "Exo", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hidden-class {
+  visibility: hidden;
+}
+
+.flex-container>div {
+  background-color: #ffffff;
+  width: fit-content;
+  line-height: 1rem;
+}
+
+.saketa-logo {
+  width: 9rem;
+  top: 0.625rem;
+
+}
+
+.primary-text {
+  font-size: 2.2rem;
+  top: 0.56rem;
+  text-align: left;
+}
+
+.secondary-text {
+  font-size: 1.2rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.usergreeting {
+  font-size: 1.925rem;
+  top: 1.5rem;
+  left: 5.3rem;
+}
+
+.username {
+  font-size: 1.925rem;
+  flex-grow: 1;
+  top: 1.5rem;
+  left: 3.8rem;
+}
+
+.user-image {
+  width: 3.98rem;
+  height: 3rem;
+  top: 0.687rem;
+  left: 0.7rem;
+}
+
+.menu-button {
+  display: none;
+  flex-grow: 1;
+}
+
+.saketa-icon {
+  flex-grow: 1;
+}
+
+.employee-pic {
+  flex-grow: 1;
+}
+
+.employee-directory {
+  flex-grow: 9;
+  top: 0.625rem;
+}
+
+.welcome {
+  flex-grow: 0.2;
+  width: fit-content;
+}
+
+.employee {
+  flex-grow: 0.8;
+}
+
+.blue {
+  color: #00b1fc;
+}
+
+
+@media screen and (max-width: 51.25em) {
+  .employee-directory {
+    flex-grow: 9;
+    top: 0.625rem;
+    left: 3.5rem;
+  }
+
+  .user-image {
+    width: 3.68rem;
+    top: 0.68rem;
+    left: 46rem;
+  }
+
+  .username {
+    font-size: 1.625rem;
+    flex-grow: 1;
+    top: 1.5rem;
+    left: 47rem;
+  }
+
+  .usergreeting {
+    font-size: 1.625rem;
+    top: 1.5rem;
+    left: 49rem;
+  }
+}
+
+/*1024 screen*/
+@media screen and (max-width: 64em) {
+  .employee-directory {
+    flex-grow: 9;
+    top: 0.625rem;
+    left: 3.5rem;
+  }
+
+  .user-image {
+    width: 3.68rem;
+    top: 0.68rem;
+    left: 33rem;
+  }
+
+  .username {
+    font-size: 1.625rem;
+    flex-grow: 1;
+    top: 1.5rem;
+    left: 33rem;
+  }
+
+  .usergreeting {
+    font-size: 1.625rem;
+    top: 1.5rem;
+    left: 33rem;
+  }
+}
+/*ipads and tablets*/
+@media screen and (max-width:33.75em) {
+  .employee-directory {
+    flex-grow: 9;
+    top: 0.625rem;
+    left: 3.5rem;
+  }
+
+  .user-image {
+    width: 3.68rem;
+    top: 0.68rem;
+    left: 62rem;
+  }
+
+  .username {
+    font-size: 1.625rem;
+    flex-grow: 1;
+    top: 1.5rem;
+    left: 61rem;
+  }
+
+  .usergreeting {
+    font-size: 1.625rem;
+    top: 1.5rem;
+    left: 61rem;
+  }
+}
+
+@media screen and (max-width:57em) {
+
+  .user-image {
+    width: 3.68rem;
+    top: 0.68rem;
+    left: 43rem;
+  }
+
+  .username {
+    font-size: 1.625rem;
+    flex-grow: 1;
+    top: 1.5rem;
+    left: 42rem;
+  }
+
+  .usergreeting {
+    font-size: 1.625rem;
+    top: 1.5rem;
+    left: 42rem;
+  }
+}
+
+/*extra large screens and tv's*/
+@media screen and (width: 80em) {
+  .employee-directory {
+    flex-grow: 9;
+    top: 0.625rem;
+    left: 3.5rem;
+  }
+
+  .user-image {
+    width: 3.68rem;
+    top: 0.68rem;
+    left: 19rem;
+  }
+
+  .username {
+    font-size: 1.625rem;
+    flex-grow: 1;
+    top: 1.5rem;
+    left: 20rem;
+  }
+
+  .usergreeting {
+    font-size: 1.625rem;
+    top: 1.5rem;
+    left: 20rem;
+  }
+}
+
+
+@media screen and (width: 120em) {
+
+
+  .usergreeting {
+    font-size: 1.625rem;
+    top: 1.5rem;
+    left: -11.5rem;
+  }
+
+  .username {
+    font-size: 1.625rem;
+    flex-grow: 1;
+    top: 1.5rem;
+    left: -13rem;
+  }
+
+  .user-image {
+    width: 3.68rem;
+    top: 0.68rem;
+    left: -18rem;
+  }
+
+}
